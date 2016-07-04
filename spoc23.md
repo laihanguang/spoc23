@@ -13,7 +13,6 @@
 
 即进行两次open和一次read和一次write
 
-流程：
 
 用户态： 打开：open() -> sys_open() -> syscall(SYS_OPEN, ……) 读写：read/write()-> sys_read/write() -> syscall(SYS_READ/WRITE, ……)
 
